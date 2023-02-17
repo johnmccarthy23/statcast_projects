@@ -1,0 +1,26 @@
+launch_hit - done
+
+pitcher_cluster
+    - choose various meaningful pitching metrics and cluster pitchers together
+    to hopefully see a trend in bad, solid, good, great pitchers
+
+visualize_pitch
+    - try to visualize (maybe animate) a pitch using releas point, break, (maybe velo), and where it crosses the plate
+
+simulate_ab
+    - give a model previous data on a selected pitcher and hitter.
+    - model should take in how other pitchers pitch to hitter and how pitcher pitches
+    - try to visualize pitch sequence
+    - should show what outcome would be
+    - maybe it would help strategize against opponent
+
+hit_spray
+    - choose a batter
+    - show a gradient of where he hits the ball in play
+    - maybe a mark that shows hit velo
+
+events_by_inning
+    - see the distributions of home runs, strikeouts, walks per inning
+
+
+
