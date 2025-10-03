@@ -1,11 +1,11 @@
 launch_hit - done
 
-pitcher_cluster
+pitcher_cluster - done (could use a lil)
     - choose various meaningful pitching metrics and cluster pitchers together
     to hopefully see a trend in bad, solid, good, great pitchers
 
 visualize_pitch
-    - try to visualize (maybe animate) a pitch using releas point, break, (maybe velo), and where it crosses the plate
+    - try to visualize (maybe animate) a pitch using release point, break, (maybe velo), and where it crosses the plate
 
 simulate_ab
     - give a model previous data on a selected pitcher and hitter.
@@ -22,5 +22,7 @@ hit_spray
 events_by_inning
     - see the distributions of home runs, strikeouts, walks per inning
 
-
-
+abs_effect
+    - analyze how the new abs system for 2026 will affect players
+    - see the close calls that umpires missed on players
+    - show the luckiest/unluckiest players from 2025
