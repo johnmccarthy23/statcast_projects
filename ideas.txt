@@ -26,3 +26,7 @@ abs_effect
     - analyze how the new abs system for 2026 will affect players
     - see the close calls that umpires missed on players
     - show the luckiest/unluckiest players from 2025
+
+betting_setters
+    - create lines for an upcoming game (what goes into that?)
+    - make an algorithm that bets for you. What is most lucrative and safe?
