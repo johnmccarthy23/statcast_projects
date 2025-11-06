@@ -49,6 +49,23 @@ if __name__ == '__main__':
     left_left_sorted = left_left.sort_values(by='effect_per_pitch', ascending=True)
     
     print(f"Ten Most L-L Effective Pitches: \n{left_left_sorted.head(10)}")
+
+    right_right = effective_pitches.loc[effective_pitches.query("p_throws == 'R' & stand == 'R'").index, :]
+    right_right_sorted = right_right.sort_values(by='effect_per_pitch', ascending=True)
+
+    print(f"Ten Most R-R Effective Pitches: \n{right_right_sorted.head(10)}")
+
+    right_left = effective_pitches.loc[effective_pitches.query("p_throws == 'R' & stand == 'L'").index, :]
+    right_left_sorted = right_left.sort_values(by='effect_per_pitch', ascending=True)
+
+    print(f"Ten Most R-L Effective Pitches: \n{right_left_sorted.head(10)}")
+
+    left_right = effective_pitches.loc[effective_pitches.query("p_throws == 'L' & stand == 'R'").index, :]
+    left_right_sorted = left_right.sort_values(by='effect_per_pitch', ascending=True)
+
+    print(f"Ten Most L-R Effective Pitches: \n{right_left_sorted.head(10)}")
+
+
         
 
         

@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read in 2021 file
-statcast21 = pd.read_csv("Statcast_2021.csv")
+statcast21 = pd.read_csv("data/Statcast2021.csv")
 
 
 # Columns and meanings here -- https://baseballsavant.mlb.com/csv-docs
